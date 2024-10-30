@@ -1,0 +1,260 @@
+.wp_current_weather * {
+	margin: 0;
+	padding: 0;
+        font-family:helvetica,arial,sans-serif;
+}
+.wpcw_box {padding: 5px;}
+.wp_current_weather {
+	font-size: 12px;
+	position:relative;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: rgba(255,255,255,0.55);
+        border: 1px solid #ddd;
+}
+
+.wp_current_weather dl {
+	margin: 0;
+    padding: 0;
+}
+
+.wp_current_weather dl dd {
+	list-style-type: none;
+}
+
+.wp_current_weather dl dd.today {
+	padding: 3px 0 1px 0;
+}
+
+.wp_current_weather dl dd.today .conditions {
+	line-height: 12px; 
+	font-size: 13px; 
+	margin: 0;
+	text-shadow: #fff 1px 1px 0;
+	color: #000;
+}
+
+.wp_current_weather dl dd.today .temperature {
+	font-size: 34px; 
+	margin: 0; 
+	line-height: 34px; 
+	text-shadow: #fff 1px 1px 0; 
+	font-weight: bold;
+        font-style: normal;
+	color: #000;
+}
+.wp_current_weather p.location {
+   display: block; 
+   line-height: 12px; 
+   font-size: 10px; 
+   color: #777;
+   margin: 0;
+   text-shadow: #fff 1px 1px 0;
+}
+
+.wp_current_weather dl dd.day1,
+.wp_current_weather dl dd.day2 {
+	float: left;
+	height: 82px;
+	width: 49%;
+	margin: 0 1% 0 0;
+}
+
+.wp_current_weather .day {
+	background-color: #222;
+	color: #fff;
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	margin: 1px 1px 0 0;
+	text-align: center;
+	font-size: 11px;
+}
+
+.wp_current_weather .temp {
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.35);
+	border: 1px solid #eee;
+	color: #777;
+	display: block;
+	height: 60px;
+	font-size: 15px;
+	line-height: 16px;
+	margin: 0 1px 0 0;
+	text-align: center;
+}
+
+#sidebar .wp_current_weather img,
+.wp_current_weather img {
+	border: 0;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+.weathercom-link {
+   display: block;
+   font-size: 10px;
+   font-weight: normal; 
+   margin: 0;
+}
+
+/* =Clear Floated Elements
+--------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* http://www.positioniseverything.net/easyclearing.html */
+
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear{background: none; border: 0; clear: both; display: block; float: none; font-size: 0; list-style: none; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+.clearfix:after{clear: both; content: '.'; display: block; visibility: hidden; height: 0;}
+.clearfix{display: inline-block;}
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+
+.icon0 {
+   background: url(../images/icons/93x93/0.png) no-repeat center top;
+}
+.icon01 {
+   background: url(../images/icons/93x93/01.png) no-repeat center top;
+}
+.icon02 {
+   background: url(../images/icons/93x93/02.png) no-repeat center top;
+}
+.icon03 {
+   background: url(../images/icons/93x93/03.png) no-repeat center top;
+}
+.icon04 {
+   background: url(../images/icons/93x93/04.png) no-repeat center top;
+}
+.icon05 {
+   background: url(../images/icons/93x93/05.png) no-repeat center top;
+}
+.icon06 {
+   background: url(../images/icons/93x93/06.png) no-repeat center top;
+}
+.icon07 {
+   background: url(../images/icons/93x93/07.png) no-repeat center top;
+}
+.icon08 {
+   background: url(../images/icons/93x93/08.png) no-repeat center top;
+}
+.icon09 {
+   background: url(../images/icons/93x93/09.png) no-repeat center top;
+}
+.icon10 {
+   background: url(../images/icons/93x93/10.png) no-repeat center top;
+}
+.icon10 {
+   background: url(../images/icons/93x93/10.png) no-repeat center top;
+}
+.icon11 {
+   background: url(../images/icons/93x93/11.png) no-repeat center top;
+}
+.icon12 {
+   background: url(../images/icons/93x93/12.png) no-repeat center top;
+}
+.icon13 {
+   background: url(../images/icons/93x93/13.png) no-repeat center top;
+}
+.icon14 {
+   background: url(../images/icons/93x93/14.png) no-repeat center top;
+}
+.icon15 {
+   background: url(../images/icons/93x93/15.png) no-repeat center top;
+}
+.icon16 {
+   background: url(../images/icons/93x93/16.png) no-repeat center top;
+}
+.icon17 {
+   background: url(../images/icons/93x93/17.png) no-repeat center top;
+}
+.icon18 {
+   background: url(../images/icons/93x93/18.png) no-repeat center top;
+}
+.icon19 {
+   background: url(../images/icons/93x93/19.png) no-repeat center top;
+}
+.icon20 {
+   background: url(../images/icons/93x93/20.png) no-repeat center top;
+}
+.icon21 {
+   background: url(../images/icons/93x93/21.png) no-repeat center top;
+}
+.icon22 {
+   background: url(../images/icons/93x93/22.png) no-repeat center top;
+}
+.icon23 {
+   background: url(../images/icons/93x93/23.png) no-repeat center top;
+}
+.icon24 {
+   background: url(../images/icons/93x93/24.png) no-repeat center top;
+}
+.icon25 {
+   background: url(../images/icons/93x93/25.png) no-repeat center top;
+}
+.icon26 {
+   background: url(../images/icons/93x93/26.png) no-repeat center top;
+}
+.icon27 {
+   background: url(../images/icons/93x93/27.png) no-repeat center top;
+}
+.icon28 {
+   background: url(../images/icons/93x93/28.png) no-repeat center top;
+}
+.icon29 {
+   background: url(../images/icons/93x93/29.png) no-repeat center top;
+}
+.icon30 {
+   background: url(../images/icons/93x93/30.png) no-repeat center top;
+}
+.icon31 {
+   background: url(../images/icons/93x93/31.png) no-repeat center top;
+}
+.icon32 {
+   background: url(../images/icons/93x93/32.png) no-repeat center top;
+}
+.icon33 {
+   background: url(../images/icons/93x93/33.png) no-repeat center top;
+}
+.icon34 {
+   background: url(../images/icons/93x93/34.png) no-repeat center top;
+}
+.icon35 {
+   background: url(../images/icons/93x93/35.png) no-repeat center top;
+}
+.icon36 {
+   background: url(../images/icons/93x93/36.png) no-repeat center top;
+}
+.icon37 {
+   background: url(../images/icons/93x93/37.png) no-repeat center top;
+}
+.icon38 {
+   background: url(../images/icons/93x93/38.png) no-repeat center top;
+}
+.icon39 {
+   background: url(../images/icons/93x93/39.png) no-repeat center top;
+}
+.icon40 {
+   background: url(../images/icons/93x93/40.png) no-repeat center top;
+}
+.icon41 {
+   background: url(../images/icons/93x93/41.png) no-repeat center top;
+}
+.icon42 {
+   background: url(../images/icons/93x93/42.png) no-repeat center top;
+}
+.icon43 {
+   background: url(../images/icons/93x93/43.png) no-repeat center top;
+}
+.icon44 {
+   background: url(../images/icons/93x93/44.png) no-repeat center top;
+}
+.icon45 {
+   background: url(../images/icons/93x93/45.png) no-repeat center top;
+}
+.icon46 {
+   background: url(../images/icons/93x93/46.png) no-repeat center top;
+}
+.icon47 {
+   background: url(../images/icons/93x93/47.png) no-repeat center top;
+}
